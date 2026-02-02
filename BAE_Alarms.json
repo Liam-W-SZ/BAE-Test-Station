@@ -1,0 +1,66 @@
+{
+    "Fail Alarms": {
+        "1": "Mosfet failure",
+        "2": "NTC failure"
+    },
+    "Point 1 Alarms": {
+        "Set 1": {
+            "1": "Cell high voltage alarm",
+            "2": "Cell over voltage protection",
+            "3": "Battery high voltage alarm"
+        },
+        "Set 2": {
+            "1": "Cell high voltage alarm",
+            "2": "Cell over voltage protection",
+            "3": "Battery over voltage protection"
+        },
+        "Set 3": {
+            "1": "Cell over voltage protection",
+            "2": "Battery high voltage alarm",
+            "3": "Battery over voltage protection"
+        },
+        "Set 4": {
+            "1": "Cell high voltage alarm",
+            "2": "Cell over voltage protection",
+            "3": "Battery high voltage alarm",
+            "4": "Battery over voltage protection"
+        },
+        "Set 5": {
+            "1": "Cell high voltage alarm",
+            "2": "Battery high voltage alarm",
+            "3": "Battery over voltage protection"
+        }
+
+    },
+    "Point 2 Alarms": {
+        "Set 1": {
+            "1": "Cell low voltage alarm",
+            "2": "Cell under voltage protection",
+            "3": "SOC alarm"
+        },
+        "Set 2": {
+            "1": "Cell low voltage alarm",
+            "2": "Battery under voltage protection",
+            "3": "SOC alarm"
+        },
+        "Set 3": {
+            "1": "Cell low voltage alarm",
+            "2": "Cell under voltage protection",
+            "3": "Battery low voltage alarm",
+            "4": "SOC alarm"
+        },
+        "Set 4": {
+            "1": "Cell low voltage alarm",
+            "2": "Cell under voltage protection",
+            "3": "Battery under voltage protection",
+            "4": "SOC alarm"
+        },
+        "Set 5": {
+            "1": "Cell low voltage alarm",
+            "2": "Cell under voltage protection",
+            "3": "Battery under voltage protection",
+            "4": "SOC alarm",
+            "5": "Battery low voltage alarm"
+        }
+    }
+}

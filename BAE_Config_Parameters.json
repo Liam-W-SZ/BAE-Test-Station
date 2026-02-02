@@ -1,0 +1,38 @@
+{
+    "Point 1": [
+        {
+            "Expected Battery voltage": [56, 58],
+            "Expected Remaining Capacity": [95, 110],
+            "Expected Max Cell Voltage Diff": [0.15, 0.2]
+
+        }
+    ],
+    "Point 2": [
+        {
+            "Expected Battery voltage": [43, 49],
+            "Expected Remaining Capacity": [-1, 1],
+            "Expected Max Cell Voltage Diff": [0.2, 0.4]
+
+        }
+    ],
+    "Point 3": [
+        {
+            "Expected Battery voltage": [50, 55],
+            "Expected Remaining Capacity": [47, 55],
+            "Expected Max Cell Voltage Diff": [0.15, 0.3]
+        }
+    ],
+    "Config Changes":
+    [
+        {
+            "Liam Changed Expected Remaining Capacity from 105 to 110 - Asked by Louis": "12/08/2025",
+            "Liam Changed Expected Max Cell Voltage Diff range from (0.18 to 0.35) -> (0.15 to 0.2)  - Asked by Louis": "09/09/2025",
+            "Liam Changed Expected Max Cell Voltage Diff range from (0.1 to 0.12) -> (0.1 to 0.15)  - Asked by Louis": "01/22/2026",
+            "Liam Changed Expected Max Cell Voltage Diff range from (0.1 to 0.15) -> (0.15 to 0.2)  - Asked by Louis": "01/22/2026"
+            
+        
+        }
+
+    ]
+
+}

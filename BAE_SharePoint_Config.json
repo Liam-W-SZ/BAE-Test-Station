@@ -1,0 +1,23 @@
+{
+    "SharePoint_Config": {
+        "sharepoint_url": "https://stage0.sharepoint.com/sites/Assurance-Quality",
+        "excel_file_url": "/sites/Assurance-Quality/Build Histories/01. Build Histories",
+        "folder_url": "/01. Build Histories/Battery Line/Z. BAE Untested Data",
+        "username": "productionchecks@stagezero.co.za",
+        "password": "Pr0ductCh3ck2*",
+        "enable_uploads": true,
+        "upload_paths": {
+            "json_base": "/01. Build Histories/Battery Line/Z. BAE Tested Data/Json Files",
+            "excel_base": "/01. Build Histories/Battery Line/Z. BAE Tested Data/Excel Files",
+            "pass_folder": "Pass",
+            "concession_pass_folder": "Concession Pass",
+            "fail_folder": "Fail"
+        },
+        "graph_api": {
+            "client_id": "8aa6ffbf-d995-49c5-b3ac-e353dfa71db1",
+            "client_secret": "oHo8Q~YtI7Pc2h4-UqpuEO1S99jy3CQSa4DBza1~",
+            "tenant_id": "270110be-68ae-4101-91af-cf63705f19af",
+            "qa_drive_id": "b!hIQvaNrSGk-jZtFOAgyvxKjgO-ehrT5HkbhZ0pbwDEPaip0vmFY3R6u0xKdaa69D"
+        }
+    }
+}

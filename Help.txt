@@ -1,0 +1,53 @@
+Battery Aging Evaluation Program (BAE) Guide
+
+1. Log in:
+   - Click the lock icon to log in with your username and password.
+   - User credentials are validated using the 'BAE_Login.json' file.
+
+2. Enable the Data Cleared Tick Box:
+   - Click the "Data was Cleared" tick box to confirm that all old aging data has been cleared prior to starting a new test.
+
+3. Select a File:
+   - Use the dropdown menu to select an Excel or CSV file containing aging test data.
+   - File paths are read from the 'BAE_File_Paths.json' configuration file.
+
+4. Start Test:
+   - Click the 'Start Test' button to begin analysis.
+   - The program will:
+     a. Load configuration parameters from 'BAE_Config_Parameters.json'.
+     b. Identify key points in the data (maximum voltage, minimum voltage, etc.).
+     c. Check for alarms using 'BAE_Alarms.json'.
+     d. Compare the data against expected values (battery voltage (V), remaining capacity (Ah), cell voltage differences (V)).
+   - Results are displayed in the main output panel, indicating whether the test passed, passed with concession, or failed.
+
+5. View Graphs:
+   - Use the dropdown menu in the graph controls section to select a parameter (battery voltage (V), remaining capacity (Ah), cell voltage differences (V)).
+   - Click 'Display Graph' to view the graph.
+   - Click 'Clear Graph' to remove the graph.
+   - Graphs are interactive; click on points to see their coordinates.
+
+6. Reset:
+   - Click the 'Reset' button to clear all results, graphs, and reset the interface.
+   - This allows you to start a new test without restarting the program.
+
+7. Quit:
+   - Click the 'Quit' button to exit the application safely.
+
+8. Results Storage:
+   - Test results are saved in JSON format in the folder specified in 'BAE_File_Paths.json'.
+   - Excel test files are saved in the folder specified in 'BAE_File_Paths.json'.
+   - Results are also uploaded to the FTP server and, if enabled, to SharePoint.
+
+9. Alarm Checking:
+   - The program checks for:
+     a. General failure alarms.
+     b. Point-specific alarms (highest voltage point [Point 1], lowest voltage point [Point 2]).
+   - If alarms are missing or unexpected alarms are found, the test fails and details are displayed in the main output panel.
+
+10. Configuration Files:
+    - The program relies on several JSON files for configuration:
+      a. 'BAE_Login.json': Stores user credentials.
+      b. 'BAE_File_Paths.json': Specifies paths for test data and result storage.
+      c. 'BAE_Config_Parameters.json': Defines expected values for test parameters.
+      d. 'BAE_Alarms.json': Lists alarms to check during the test.
+      e. 'BAE_SharePoint_Config.json': Contains SharePoint and upload settings.
